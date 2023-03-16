@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Job Listings</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- Search Bar -->
+    <header>
+      <div class="img-bg"></div>
+      <div class="container">
+        <!-- Filter Bar -->
+        <div class="filter-options hidden" data-search>
+          <div class="selected-options" data-search-content></div>
+          <button data-btn-clear>Clear</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Job Listing Cards -->
+    <main>
+      <div class="container" data-jobs-container></div>
+    </main>
+  </body>
+</html>
